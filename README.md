@@ -34,3 +34,18 @@ or specific test file
 ```
 pytest test_file_name.py
 ```
+
+## Build Script
+
+located: ScrappingData/.github/workflows/python-package.yml
+
+the step of the automation is from "steps" section.
+
+```
+run: |
+        cd UnitTest
+        pytest
+```
+With the code above, the build script will move to folder UnitTest first then run "pytest" to test all the exist unit test files.
+
+The Unit Test of the library "pytest" shoould has the name start with test_* or _test. In this project, *_test.py is used for unit test files.

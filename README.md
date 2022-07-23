@@ -1,5 +1,11 @@
 # ScrappingData
 
+Libraries
+
+```
+python -m pip install pytest
+```
+
 the main source is ScrappingData
 and the testing source is ScrappingData/UnitTest
 

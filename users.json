@@ -1,0 +1,39 @@
+{
+    "users":[
+        {
+            "userId": 1,
+            "firstName": "Lee",
+            "lastName": "The Vinh",
+            "phone": "0345 888 999",
+            "email": "abc@gmail.com"
+        },
+        {
+            "userId": 2,
+            "firstName": "John",
+            "lastName": "Edi",
+            "phone": "0466 555 999",
+            "email": "cdg@gmail.com"
+        },
+        {
+            "userId": 3,
+            "firstName": "Kie",
+            "lastName": "Brown",
+            "phone": "0123 456 756",
+            "email": "abc123@gmail.com"
+        },
+        {
+            "userId": 4,
+            "firstName": "First",
+            "lastName": "Last Name",
+            "phone": "0487 986 895",
+            "email": "abc34@gmail.com"
+        },
+        {
+            "userId": 5,
+            "firstName": "Minions",
+            "lastName": "Evil",
+            "phone": "0459 014 022",
+            "email": "abc13@gmail.com"
+        }
+    ]
+}

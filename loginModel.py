@@ -19,6 +19,6 @@ class loginModel:
                 return True
         return False
 
-# users = loaddata('users.json')
+users = loaddata('users.json')
 
-# print(checkUserAvailable(users["users"], "abc@gmail.com"))
+print(checkUserAvailable(users["users"], "abc@gmail.com"))

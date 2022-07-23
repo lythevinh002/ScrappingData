@@ -10,4 +10,4 @@ new_login = loginModel(filename="../users.json")
 new_login.loaddata()
 
 def test_user_exist():
-    assert new_login.checkUserAvailable(email="abc@gmail.com") == True
+    assert new_login.checkUserAvailable(email="asbc@gmail.com") == True

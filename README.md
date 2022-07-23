@@ -6,6 +6,12 @@ Libraries
 python -m pip install pytest
 ```
 
+or
+
+```
+pip install -r requirements.txt
+```
+
 the main source is ScrappingData
 and the testing source is ScrappingData/UnitTest
 

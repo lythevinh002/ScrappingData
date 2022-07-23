@@ -11,6 +11,13 @@ class loginModel:
         self.data = json.load(f)
         f.close()
 
+    def checkAvailable(self, typechecking, arg):
+        for i in self.data["users"]:
+            print(i)
+            if i[typechecking] == arg:
+                return True
+        return False
+
     # test the existing user
     def checkUserAvailable(self, email):
         for i in self.data["users"]:
@@ -19,6 +26,10 @@ class loginModel:
                 return True
         return False
 
-# users = loaddata('users.json')
 
-# print(checkUserAvailable(users["users"], "abc@gmail.com"))
+if __name__ == "__main__":
+    users = loginModel('users.json')
+    users.loaddata()
+
+    if (users.checkUserAvailable("abc@gmail.com")):
+        print('we have this user')

@@ -36,7 +36,7 @@ pytest test_file_name.py
 ```
 
 ## Build Script
-
+located: ScrappingData/.github/workflows/python-package.yml
 ### run dependencies
 
 to import more dependencies
@@ -52,7 +52,7 @@ Can simply run requirement.txt. However, this is run by the CI, so it should be 
 
 ### Run test
 
-located: ScrappingData/.github/workflows/python-package.yml
+
 
 The step of the automation is from "steps" section.
 

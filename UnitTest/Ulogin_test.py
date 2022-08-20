@@ -17,4 +17,4 @@ def test_user_exist():
    
 def test_user_exist_false():
     print('hello from feature-y')
-    assert new_login.checkUserAvailable(email="abc112@gmail.com") == False
+    assert new_login.checkUserAvailable(email="abc11222@gmail.com") == False

@@ -13,3 +13,8 @@ new_login.loaddata()
 def test_user_exist():
     print('hello from feature-y')
     assert new_login.checkUserAvailable(email="abc@gmail.com") == True
+    
+   
+def test_user_exist_false():
+    print('hello from feature-y')
+    assert new_login.checkUserAvailable(email="abc112@gmail.com") == False
